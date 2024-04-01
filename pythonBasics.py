@@ -381,7 +381,7 @@ import time
 #     foods.append(food)
 
 # def heelo():
-#     print("hello")
+#     print("hello python")
 
 # print(heelo)
 
@@ -474,11 +474,11 @@ import time
 
 # zip(*iterables) = aggregate element from two or more iterables (list, tuples, sets, etc.)
 
-username = ["Dude", "Bro", "ass"]
-password = ("ryrryu7","375735", 88)
-userse=zip(username,password)
-for i in userse:
-    print(i)
-us=list(password)
-print(us)
-print(type(us))
+# username = ["Dude", "Bro", "ass"]
+# password = ("ryrryu7","375735", 88)
+# userse=zip(username,password)
+# for i in userse:
+#     print(i)
+# us=list(password)
+# print(us)
+# print(type(us))
