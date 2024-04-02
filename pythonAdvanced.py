@@ -54,3 +54,21 @@ y.start()
 print(threading.active_count())
 print(threading.enumerate())   #use  main thread
 
+
+#demon-thread=  thread run in background , and r not important dor a program to run
+#ur pogramwil not wait for demon thread to cmplete befre exiting
+#non-demon thread cant normally be killed . and thet stay alive untill task is complete-----
+# exaple- backgound tasks, waiting for input, garbage collection
+
+import threading
+import time
+def timer():
+    print()
+    count =0
+    while True:
+        time.sleep(1)
+        count+=1
+        print("count helo" ,count)
+x=threading.Thread(target=timer, daemon=True)
+x.start()
+ans= input('do u wish to exit?')
